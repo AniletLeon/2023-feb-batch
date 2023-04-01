@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<!-- Before Suite -->
+<suite name="Salesforce">
+	<parameter name="browser" value="chrome"></parameter>
+	<listeners>
+		<listener class-name="com.training.listerners.TestListener"></listener>
+	</listeners>
+	<test name="Login">
+		<classes>
+			<class name="com.training.testcases.LoginTest_TC_1" />
+			<class name="com.training.testcases.LoginPage_TC_2" />
+			<class name="com.training.testcases.LoginPage_TC_3_CheckRememberMe" />
+			<class name="com.training.testcases.LoginPage_TC_4_ForgotPasswordA" />
+			<class name="com.training.testcases.LoginPage_TC_5_ForgotPasswordB" />
+		</classes>
+	</test>
+	<test name="User Menu Drop Down">
+		<classes>
+			<class name="com.training.usermenutestcases.DropDown_TC05" />
+			<class name="com.training.usermenutestcases.DropDown_TC06" />
+			<class name="com.training.usermenutestcases.DropDown_TC07_MtSetting" />
+			<class name="com.training.usermenutestcases.DropDown_TC08_DeveloperConsole" />
+			<class name="com.training.usermenutestcases.DropDown_TC09_LogOut" />
+		</classes>
+	</test>
+	<test name="Accounts">
+		<classes>
+			<class name="com.training.createaccounttestcases.CreateAccount_TC10_CreateAccount" />
+			<class name="com.training.createaccounttestcases.CreateAccount_TC11_CreateNewView" />
+			<class name="com.training.createaccounttestcases.CreateAccount_TC12_EditView" />
+			<class name="com.training.createaccounttestcases.CreateAccount_TC13_MergeAccount" />
+			<class name="com.training.createaccounttestcases.CreateAccount_TC14_AccountReport" />
+		</classes>
+	</test>
+	<test name="Create Opty">
+		<classes>
+			<class name="com.training.createoptytestcases.CreateOpty_TC15_OptyDropDown" />
+			<class name="com.training.createoptytestcases.CreateOpty_TC16_NewOpty" />
+			<class name="com.training.createoptytestcases.CreateOpty_TC17_OptyPipeLineReport" />
+			<class name="com.training.createoptytestcases.CreateOpty_TC18_StuckOptyReport" />
+			<class name="com.training.createoptytestcases.CreateOpty_TC19_QuarterlySumReport" />
+
+		</classes>
+	</test>
+	<test name="Leads">
+		<classes>
+			<class name="com.training.leadstestcases.Leads_TC20_LeadsTab" />
+			<class name="com.training.leadstestcases.Leads_TC21_LeadsSelectView" />
+			<class name="com.training.leadstestcases.Leads_TC22_DefaultView" />
+			<class name="com.training.leadstestcases.Leads_TC23_ClickOnTodayLead" />
+			<class name="com.training.leadstestcases.Leads_TC24_ClickNewButtonOnLeads" />
+		</classes>
+	</test>
+	<test name="Contacts">
+		<classes>
+			<class name="com.training.contacts.Contacts_TC25_CreateNewContacts" />
+			<class name="com.training.contacts.Contacts_TC26_NewViewContact" />
+			<class name="com.training.contacts.Contacts_TC27_RecentCreadedContacts" />
+			<class name="com.training.contacts.Contacts_TC28_MyContactView" />
+			<class name="com.training.contacts.Contacts_TC29_ViewContactInContactPage" />
+			<class name="com.training.contacts.Contacts_TC30_CheckErrorMessage" />
+			<class name="com.training.contacts.Contacts_TC31_ClickOnCancelButton" />
+			<class name="com.training.contacts.Contacts_TC32_checkingButton" />
+
+		</classes>
+	</test>
+	<test name="Random Scenarios">
+		<classes>
+			<class name="com.training.randomscenarios.Random_TC33_VerifyFirstLastName" />
+			<class name="com.training.randomscenarios.Random_TC34" />
+			<class name="com.training.randomscenarios.Random_TC35" />
+			<class name="com.training.randomscenarios.Random_TC36" />
+			<class name="com.training.randomscenarios.Random_TC37" />
+		</classes>
+	</test>
+</suite> <!-- Suite -->

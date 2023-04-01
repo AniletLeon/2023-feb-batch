@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<!-- Before Suite -->
+<suite name="Salesforce">
+	<parameter name="browser" value="firefox"></parameter>
+	<listeners>
+		<listener class-name="com.training.listerners.TestListener"></listener>
+	</listeners>
+	<test name="Leads">
+		<classes>
+			<class name="com.training.leadstestcases.Leads_TC21_LeadsSelectView" />
+		</classes>
+	</test>
+</suite> <!-- Suite -->

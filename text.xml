@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<!-- Before Suite -->
+<suite name ="Salesforce">
+  
+  
+ <parameter name="browser" value="chrome"></parameter>
+
+
+<test name="dropdown">
+    <classes>
+    
+      <!-- Executed class
+      <class name="com.training.testcases.DropDown_TC09_LogOut" />
+       -->
+      <class name="com.training.createaccounttestcases.CreateAccount_TC10_CreateAccount" />
+      
+    </classes>
+    
+  </test> 
+</suite> <!-- Suite -->
+
+	

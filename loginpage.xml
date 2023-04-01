@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<!-- Before Suite -->
+<suite name ="Salesforce">
+  
+  
+ <parameter name="browser" value="chrome"></parameter>
+
+
+<test name="dropdown">
+    <classes>
+    
+      <!-- Executed class
+      <class name="com.training.testcases.DropDown_TC09_LogOut" />
+       -->
+<class name="com.training.testcases.LoginTest_TC_1" />
+			<class name="com.training.testcases.LoginPage_TC_2" />
+			<class name="com.training.testcases.LoginPage_TC_3_CheckRememberMe" />
+			<class name="com.training.testcases.LoginPage_TC_4_ForgotPasswordA" />
+			<class name="com.training.testcases.LoginPage_TC_5_ForgotPasswordB" />      
+    </classes>
+    
+  </test> 
+</suite> <!-- Suite -->
+
+	
